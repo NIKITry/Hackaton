@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/main_back">
@@ -11,64 +10,68 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="250dp"
-        android:text="Добро Пожаловать"
-        android:textColor="@color/button_back"
+        android:fontFamily="@font/pixel_style"
+        android:text="@string/welcoming"
+        android:textColor="#9575CD"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:fontFamily="@font/pixel_style"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress3"
         android:layout_width="270dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:autofillHints=""
         android:background="@drawable/custom_text_view"
         android:ems="10"
-        android:hint="Введите email"
+        android:fontFamily="@font/pixel_style"
+        android:hint="@string/write_email"
         android:inputType="textEmailAddress"
         android:paddingTop="15dp"
         android:paddingBottom="20dp"
         android:textColor="@color/white"
-        android:textColorHint="@color/white"
+        android:textColorHint="#1F2845"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/textView3"
         app:layout_constraintStart_toStartOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        android:fontFamily="@font/pixel_style"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:autofillHints=""
         android:background="@drawable/custom_text_view"
         android:ems="10"
-        android:hint="Введите пароль"
+        android:fontFamily="@font/pixel_style"
+        android:hint="@string/write_password"
         android:inputType="textPassword"
         android:paddingTop="15dp"
         android:paddingBottom="20dp"
         android:textColor="@color/white"
-        android:textColorHint="@color/white"
+        android:textColorHint="#1F2845"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress3"
         app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress3"
-        android:fontFamily="@font/pixel_style"/>
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress3" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btLogin"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="61dp"
+        android:layout_marginTop="60dp"
         android:backgroundTint="@color/button_back"
+        android:fontFamily="@font/pixel_style"
         android:paddingTop="17dp"
         android:paddingBottom="17dp"
-        android:text="Войти"
+        android:text="@string/sign_in"
+        android:textColor="#1F2845"
         app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword2"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPassword2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
-        android:fontFamily="@font/pixel_style"/>
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

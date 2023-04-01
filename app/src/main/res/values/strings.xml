@@ -4,4 +4,8 @@
     <string name="profile">profile</string>
     <string name="game">game</string>
     <string name="materials">materials</string>
+    <string name="welcoming">Добро Пожаловать</string>
+    <string name="write_email">Введите email</string>
+    <string name="write_password">Введите пароль</string>
+    <string name="sign_in">Войти</string>
 </resources>
