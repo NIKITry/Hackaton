@@ -43,6 +43,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/pixel_style"
                 android:text="Описание"
+                android:textSize="10sp"
                 app:layout_constraintEnd_toEndOf="@+id/tvTitleReward"
                 app:layout_constraintStart_toStartOf="@+id/tvTitleReward"
                 app:layout_constraintTop_toBottomOf="@+id/tvTitleReward" />

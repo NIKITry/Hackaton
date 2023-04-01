@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import com.example.hackaton.databinding.ActivityMainBinding
 import com.example.hackaton.fragment.GameFragment
 import com.example.hackaton.fragment.MaterialFragment
+import com.example.hackaton.fragment.ProfileFragment
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
@@ -25,7 +26,7 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.profile -> {
-                    //replaceFragment(ProfileFragment)
+                    replaceFragment(ProfileFragment())
                     true
                 }
                 else -> true
