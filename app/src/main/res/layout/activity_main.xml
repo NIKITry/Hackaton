@@ -22,7 +22,7 @@
         android:background="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"></View>
+        app:layout_constraintStart_toStartOf="parent" />
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -33,6 +33,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_nav_menu"
-        android:background="@color/purple"/>
+        android:background="@color/purple"
+        app:itemTextAppearanceActive="@style/Style_TextView"
+        app:itemTextAppearanceInactive="@style/Style_TextView"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

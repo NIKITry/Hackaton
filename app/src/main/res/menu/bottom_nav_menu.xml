@@ -5,7 +5,7 @@
         android:icon="@drawable/baseline_perm_identity_24"
         android:id="@+id/profile"/>
     <item android:title="@string/game"
-        android:icon="@drawable/baseline_coffee_24"
+        android:icon="@drawable/joystick_icon"
         android:id="@+id/game"/>
     <item android:title="@string/materials"
         android:icon="@drawable/baseline_menu_book_24"
