@@ -7,4 +7,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="InOffice">В офисе</string>
+    <string name="welcoming">Добро Пожаловать</string>
+    <string name="write_email">Введите email</string>
+    <string name="write_password">Введите пароль</string>
+    <string name="sign_in">Войти</string>
 </resources>
