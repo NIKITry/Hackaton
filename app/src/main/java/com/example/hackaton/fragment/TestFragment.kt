@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.hackaton.R
 import com.example.hackaton.adapters.TestAdapter
 import com.example.hackaton.data.Test
 
@@ -30,6 +31,13 @@ class TestFragment: Fragment() {
         _binding = FragmentTaskTestBinding.inflate(inflater, container, false)
         val view = binding.root
         init()
+        binding.buttonEndTest.setOnClickListener {
+            val fragment = TestImgFragment()
+            val fragmentManager = parentFragmentManager
+            val fragmentTransaction = fragmentManager.beginTransaction()
+            fragmentTransaction.replace(R.id.frameLayout, fragment)
+            fragmentTransaction.commit()
+        }
         return view
     }
 
