@@ -11,4 +11,6 @@
     <color name="button_back">#C1AFEB</color>
     <color name="purple">#B798FF</color>
     <color name="purple_light">#F3E7FF</color>
+    <color name="profile_top">#CDB8FF</color>
+    <color name="task_back">#F3E7FF</color>
 </resources>
