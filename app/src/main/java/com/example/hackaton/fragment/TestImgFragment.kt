@@ -6,8 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.hackaton.R
 import com.example.hackaton.adapters.TestImgAdapter
 import com.example.hackaton.data.Test
+import com.example.hackaton.data.TestImg
 import com.example.hackaton.databinding.FragmentTaskImgTestBinding
 
 class TestImgFragment: Fragment() {
@@ -35,7 +37,7 @@ class TestImgFragment: Fragment() {
     private fun init() = with(binding) {
         rvTest.layoutManager = LinearLayoutManager(this@TestImgFragment.context)
         rvTest.adapter = adapter
-        adapter.addTest(Test("вопрос с вариантом ответа", 1, "[...]", "[...]", "[...]"))
+        adapter.addTest(TestImg("вопрос с вариантом ответа",  1, R.drawable.office, "[...]", "[...]", "[...]"))
     }
 
     override fun onDestroyView() {
