@@ -13,4 +13,7 @@
     <string name="sign_in">Войти</string>
     <string name="TestTB"><u>Техника безопасности</u></string>
     <string name="tbPart">Правила ТБ</string>
+    <string name="quest_with_img">вопрос по вариантом ответа - выход</string>
+    <string name="answer">Ответ:</string>
+    <string name="test_quest_with_var">вопрос по тб с вариантом ответа</string>
 </resources>

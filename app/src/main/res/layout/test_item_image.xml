@@ -15,14 +15,14 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/tvQuestionFirst"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="11dp"
+                android:layout_marginStart="9dp"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/pixel_style"
                 android:text="Вопрос 1:"
@@ -33,24 +33,37 @@
             <TextView
                 android:id="@+id/tvQuestion"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
                 android:fontFamily="@font/pixel_style"
-                android:text="@string/test_quest_with_var"
+                android:gravity="start"
+                android:text="@string/quest_with_img"
                 android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/tvQuestionFirst"
                 app:layout_constraintTop_toTopOf="@+id/tvQuestionFirst" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView8"
+                app:layout_constraintEnd_toEndOf="@+id/tvQuestion"
+                app:layout_constraintStart_toStartOf="@+id/tvQuestionFirst"
+                app:layout_constraintTop_toBottomOf="@+id/tvQuestion"
+                app:srcCompat="@drawable/office" />
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="48dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="@font/pixel_style"
                 android:text="@string/answer"
                 android:textColor="@color/black"
                 app:layout_constraintStart_toStartOf="@+id/tvQuestionFirst"
-                app:layout_constraintTop_toBottomOf="@+id/tvQuestion" />
+                app:layout_constraintTop_toBottomOf="@id/imageView" />
 
             <RadioGroup
                 android:id="@+id/varsTest"
