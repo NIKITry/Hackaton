@@ -41,12 +41,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="364dp"
-        android:background="@android:color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.230"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/baseline_location_on_24_major" />
+        app:srcCompat="@drawable/baseline_location_on_24_major"
+        android:background="@android:color/transparent"/>
 
     <ImageButton
         android:id="@+id/bt_location_4"
@@ -82,7 +82,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/baseline_location_on_24_major" />
+        app:srcCompat="@drawable/baseline_location_on_24_major"/>
 
     <ImageButton
         android:id="@+id/bt_location_3"
@@ -103,6 +103,7 @@
         android:layout_marginTop="188dp"
         android:fontFamily="@font/pixel_font"
         android:text="@string/text_getting_to_know_company"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/bt_location_4"
         app:layout_constraintTop_toTopOf="@+id/imageView" />
@@ -191,6 +192,6 @@
         app:layout_constraintHorizontal_bias="0.058"
         app:layout_constraintStart_toEndOf="@+id/bt_location_5"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.162" />
+        app:layout_constraintVertical_bias="0.186" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
