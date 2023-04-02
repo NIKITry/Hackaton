@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.hackaton.R
 import com.example.hackaton.databinding.GameLayoutFragmentBinding
 
 // TODO: Rename parameter arguments, choose names that match
@@ -36,6 +37,13 @@ class GameFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding= GameLayoutFragmentBinding.inflate(inflater, container, false)
+        binding.btLocation1.setOnClickListener {
+            val fragment = TestFragment()
+            val fragmentManager = parentFragmentManager
+            val fragmentTransaction = fragmentManager.beginTransaction()
+            fragmentTransaction.replace(R.id.frameLayout, fragment)
+            fragmentTransaction.commit()
+        }
         return binding.root
     }
 
