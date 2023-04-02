@@ -33,6 +33,12 @@ class VideoFragment: Fragment() {
         _binding = FragmentVideoTaskBinding.inflate(inflater, container, false)
         val view = binding.root
         init()
+        binding.buttonEndTest.setOnClickListener{
+            val fragmentManager = parentFragmentManager
+            val fragmentTransaction = fragmentManager.beginTransaction()
+            fragmentTransaction.replace(R.id.frameLayout, GameFragment())
+            fragmentTransaction.commit()
+        }
         return view
     }
 

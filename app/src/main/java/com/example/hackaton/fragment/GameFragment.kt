@@ -43,6 +43,9 @@ class GameFragment : Fragment() {
         binding.btLocation4.setOnClickListener {
             replaceFragment(CollegesFragment())
         }
+        binding.btLocation3.setOnClickListener {
+            replaceFragment(VideoFragment())
+        }
         return binding.root
     }
 
