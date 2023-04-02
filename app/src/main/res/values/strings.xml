@@ -8,4 +8,31 @@
     <string name="write_email">Введите email</string>
     <string name="write_password">Введите пароль</string>
     <string name="sign_in">Войти</string>
+    <string name="sign_in_1"><u>Войти</u></string>
+    <string name="necessary">Обязательно</string>
+    <string name="unnecessary">Дополнительно</string>
+    <string name="safety_rules">Техника безопасности</string>
+    <string name="work_rules">Рабочий регламент</string>
+    <string name="inner_system">Внутренний софт</string>
+    <string name="company_history">История и цели компании</string>
+    <string name="text_getting_to_know_company">Знакомство с компанией и коллегами</string>
+    <string name="group_item_1">Обучение технике безопасности</string>
+    <string name="group_item_2">Ознакомление с инструкциями и регламентами работы в компании</string>
+    <string name="group_item_3">Обучение по работе с внутренней системой управления проектами</string>
+    <string name="group_item_4">Обучение корпоративной культуре, пониманию ценностей компании</string>
+    <string name="group_item_5">Знакомство с компанией, офисом и коллегами</string>
+    <string name="item_list_1">Инструктаж по технике безопасности: \n тесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттекст</string>
+    <string name="item_list_2">Правила на рабочем местете: \n сттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттекст</string>
+    <string name="item_list_3">Правила эвакуации в случае ЧС: \n тесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттекст</string>
+    <string name="item_list_4">Первичный инструктаж при приеме на работу: \n тесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттекст</string>
+    <string name="item_list_5">Первичный инструктаж при приеме на работу от бухгалтерии: \n тесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттексттесттекст</string>
+    <string name="item_list_6">Знакомство с Системой RNS Web</string>
+    <string name="item_list_7">Знакомство с историей компании и целями</string>
+    <string name="item_list_8">Знакомство с мероприятиями компаний и возможностями по увеличения заработной платы за счет бонусов</string>
+    <string name="item_list_9">Знакомство с отделами и офисом</string>
+    <string name="item_list_10">Знакомство с командой и коллегами</string>
+    <string name="item_list_11">Знакомство с руководителями соседних подразделений</string>
+    <string name="materials_extra">Справочные материалы</string>
+    <string name="test_text">text</string>
+
 </resources>

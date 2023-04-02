@@ -5,7 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.hackaton.ExpandableListViewAdapter
 import com.example.hackaton.R
+import com.example.hackaton.databinding.MaterialsLayoutFragmentBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -21,6 +23,10 @@ class MaterialFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
+    private var groupList = ArrayList<String>()
+    private var materialsCollection = HashMap<String, List<String>>()
+    private lateinit var listViewAdapter: ExpandableListViewAdapter
+    private lateinit var binding: MaterialsLayoutFragmentBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,9 +39,35 @@ class MaterialFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_material, container, false)
+    ): View {
+        binding = MaterialsLayoutFragmentBinding.inflate(inflater, container, false)
+        createCollection()
+        listViewAdapter =
+            activity?.let { ExpandableListViewAdapter(it.baseContext, groupList, materialsCollection) }!!
+        binding.listView.setAdapter(listViewAdapter)
+        return binding.root
+    }
+
+        private fun createGroupList() {
+        groupList.add(getString(R.string.group_item_1))
+        groupList.add(getString(R.string.group_item_2))
+        groupList.add(getString(R.string.group_item_3))
+        groupList.add(getString(R.string.group_item_4))
+        groupList.add(getString(R.string.group_item_5))
+    }
+
+    private fun createCollection() {
+        createGroupList()
+        val firstGroup = listOf(getString(R.string.item_list_1), getString(R.string.item_list_2), getString(R.string.item_list_3))
+        val secondGroup = listOf(getString(R.string.item_list_4), getString(R.string.item_list_5))
+        val thirdGroup = listOf(getString(R.string.item_list_6))
+        val fourthGroup = listOf(getString(R.string.item_list_7), getString(R.string.item_list_8))
+        val fifthGroup = listOf(getString(R.string.item_list_9), getString(R.string.item_list_10), getString(R.string.item_list_11))
+        materialsCollection[groupList[0]] = firstGroup
+        materialsCollection[groupList[1]] = secondGroup
+        materialsCollection[groupList[2]] = thirdGroup
+        materialsCollection[groupList[3]] = fourthGroup
+        materialsCollection[groupList[4]] = fifthGroup
     }
 
     companion object {
