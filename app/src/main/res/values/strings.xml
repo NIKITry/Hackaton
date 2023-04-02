@@ -11,4 +11,6 @@
     <string name="write_email">Введите email</string>
     <string name="write_password">Введите пароль</string>
     <string name="sign_in">Войти</string>
+    <string name="TestTB"><u>Техника безопасности</u></string>
+    <string name="tbPart">Правила ТБ</string>
 </resources>
