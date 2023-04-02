@@ -78,7 +78,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView8">
 
                 <RadioButton
-                    android:id="@+id/radioButton5"
+                    android:id="@+id/tvVarFirst"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="38dp"
@@ -91,7 +91,7 @@
                     android:text="a) [...]" />
 
                 <RadioButton
-                    android:id="@+id/radioButton4"
+                    android:id="@+id/tvVarSec"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="38dp"
@@ -103,7 +103,7 @@
                     android:text="б) [...]" />
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/tvVarThird"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
