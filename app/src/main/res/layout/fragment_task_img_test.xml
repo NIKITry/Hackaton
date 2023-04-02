@@ -98,7 +98,7 @@
         android:layout_marginBottom="19dp"
         android:backgroundTint="@color/button_back"
         android:fontFamily="@font/pixel_style"
-        android:text="@string/next_quest"
+        android:text="@string/end_test"
         android:textColor="@color/black"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"

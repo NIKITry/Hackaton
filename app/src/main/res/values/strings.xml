@@ -46,4 +46,8 @@
     <string name="next_quest">Далее</string>
     <string name="boss_greetings">Привет, я твой босс</string>
     <string name="test_img_part">правила эвакуации в случае чс</string>
+    <string name="end_test">Завершить</string>
+    <string name="task_video"><u>Работа с внутренней системой управления проектами</u></string>
+    <string name="video_material">Видео-материал</string>
+    <string name="end_video">завершить просмотр</string>
 </resources>
