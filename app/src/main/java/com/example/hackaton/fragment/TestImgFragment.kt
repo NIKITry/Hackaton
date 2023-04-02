@@ -35,7 +35,7 @@ class TestImgFragment: Fragment() {
     private fun init() = with(binding) {
         rvTest.layoutManager = LinearLayoutManager(this@TestImgFragment.context)
         rvTest.adapter = adapter
-        adapter.addTest(Test("[вопрос с вариантом ответа]", 1, "[...]", "[...]", "[...]"))
+        adapter.addTest(Test("вопрос с вариантом ответа", 1, "[...]", "[...]", "[...]"))
     }
 
     override fun onDestroyView() {
@@ -45,6 +45,6 @@ class TestImgFragment: Fragment() {
 
     companion object {
         @JvmStatic
-        fun newInstance() = TestFragment()
+        fun newInstance() = TestImgFragment()
     }
 }
