@@ -16,7 +16,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_border">
 
             <TextView
                 android:id="@+id/tvQuestionFirst"
@@ -73,9 +74,10 @@
                     android:background="@drawable/test_button_background"
                     android:button="@null"
                     android:checked="true"
-                    android:maxHeight="23dp"
                     android:fontFamily="@font/pixel_style"
-                    android:text="a) [...]" />
+                    android:maxHeight="23dp"
+                    android:text="a) [...]"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <RadioButton
                     android:id="@+id/tvVarSec"
@@ -85,9 +87,10 @@
                     android:layout_weight="1"
                     android:background="@drawable/test_button_background"
                     android:button="@null"
-                    android:maxHeight="23dp"
                     android:fontFamily="@font/pixel_style"
-                    android:text="б) [...]" />
+                    android:maxHeight="23dp"
+                    android:text="б) [...]"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <RadioButton
                     android:id="@+id/tvVarThird"
@@ -96,9 +99,10 @@
                     android:layout_weight="1"
                     android:background="@drawable/test_button_background"
                     android:button="@null"
-                    android:maxHeight="23dp"
                     android:fontFamily="@font/pixel_style"
-                    android:text="в) [...]" />
+                    android:maxHeight="23dp"
+                    android:text="в) [...]"
+                    tools:ignore="TouchTargetSizeCheck" />
             </RadioGroup>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
