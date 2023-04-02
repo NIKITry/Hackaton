@@ -37,7 +37,6 @@
     <string name="item_list_11">Знакомство с руководителями соседних подразделений</string>
     <string name="materials_extra">Справочные материалы</string>
     <string name="test_text">text</string>
-
     <string name="TestTB"><u>Техника безопасности</u></string>
     <string name="tbPart">Правила ТБ</string>
     <string name="quest_with_img">вопрос по вариантом ответа - выход</string>
@@ -45,5 +44,11 @@
     <string name="test_quest_with_var">вопрос по тб с вариантом ответа</string>
     <string name="next_quest">Далее</string>
     <string name="boss_greetings">Привет, я твой босс</string>
-    <string name="test_img_part">правила эвакуации в случае чс</string>
+    <string name="person_1">Топорков Егор Денисович</string>
+    <string name="person_2">Иванов Иван Иванович</string>
+    <string name="person_3">Изя</string>
+    <string name="person_4">Святов Святослав Святогорович</string>
+    <string name="bio_info">Информация о сотруднике…</string>
+    <string name="colleges">Коллеги</string>
+    <string name="test_img_part">Правила эвакуации в случае ЧС</string>
 </resources>
