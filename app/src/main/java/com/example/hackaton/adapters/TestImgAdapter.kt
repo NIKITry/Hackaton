@@ -29,7 +29,7 @@ class TestImgAdapter: RecyclerView.Adapter<TestImgAdapter.TestImgHolder>() {
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TestImgHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.test_item, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.test_item_image, parent, false)
         return TestImgHolder(view)
     }
 
