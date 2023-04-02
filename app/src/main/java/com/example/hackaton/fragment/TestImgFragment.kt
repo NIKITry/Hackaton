@@ -6,18 +6,16 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.hackaton.R
-import com.example.hackaton.adapters.TestAdapter
+import com.example.hackaton.adapters.TestImgAdapter
 import com.example.hackaton.data.Test
-
-import com.example.hackaton.databinding.FragmentTaskTestBinding
+import com.example.hackaton.databinding.FragmentTaskImgTestBinding
 
 class TestImgFragment: Fragment() {
-    private var _binding: FragmentTaskTestBinding? = null
+    private var _binding: FragmentTaskImgTestBinding? = null
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!
-    private val adapter = TestAdapter()
+    private val adapter = TestImgAdapter()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,7 +26,7 @@ class TestImgFragment: Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        _binding = FragmentTaskTestBinding.inflate(inflater, container, false)
+        _binding = FragmentTaskImgTestBinding.inflate(inflater, container, false)
         val view = binding.root
         init()
         return view

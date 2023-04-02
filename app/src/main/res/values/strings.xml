@@ -44,4 +44,6 @@
     <string name="answer">Ответ:</string>
     <string name="test_quest_with_var">вопрос по тб с вариантом ответа</string>
     <string name="next_quest">Далее</string>
+    <string name="boss_greetings">Привет, я твой босс</string>
+    <string name="test_img_part">правила эвакуации в случае чс</string>
 </resources>
